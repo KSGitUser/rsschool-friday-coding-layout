@@ -1,0 +1,42 @@
+.ico {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.ico__play {
+  background-image: url('../../img/icons/play.svg');
+  width: 18px;
+  height: 19px;
+}
+
+.icon-square {
+  height: 50px;
+  width: 50px;
+  left: 0px;
+  top: 0px;
+  border-radius: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &_violet {
+    background-color: $color-violet;
+  }
+
+  &_yellow {
+    background-color: $color-yellow;
+  }
+
+  &_red {
+    background-color: $color-red;
+  }
+
+  &_blue {
+    background-color: $color-blue;
+  }
+}
+
+.icon-square__icon {
+  max-width: 18px;
+  max-height: 18px;
+}

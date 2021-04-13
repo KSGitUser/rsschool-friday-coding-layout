@@ -1,0 +1,31 @@
+.stategies {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.strategies__title {
+  margin: 0 0 14px;
+}
+
+.strategies__description {
+  margin: 0 0 24px;
+}
+
+.strategies__tags {
+  margin-bottom: 31px;
+}
+
+.stategy-wrapper {
+  > * {
+    margin-bottom: 30px;
+  }
+}
+
+.strategy__content {
+  margin: 24px 33px 26px;
+}
+
+.strategy__title {
+  margin-top: 0;
+  margin-bottom: 29px;
+}

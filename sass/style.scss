@@ -1,16 +1,27 @@
-@import "abstract/constants";
-@import "abstract/placeholders";
-@import "abstract/mixins";
+//Normolize
+@import '../node_modules/normalize-scss/sass/normalize/import-now';
+
+//Abctract
+@import 'abstract/constants';
+@import 'abstract/placeholders';
+@import 'abstract/mixins';
 
 //Base
-@import "base/base";
-@import "base/buttons";
-@import "base/logo";
+@import 'base/base';
+@import 'base/buttons';
+@import 'base/logo';
+@import 'base/icons';
+@import 'base/tags';
 
 //Layouts
-@import "layouts/wrapper";
-@import "layouts/header";
+@import 'layouts/wrapper';
+@import 'layouts/header';
+@import 'layouts/columns';
 
 // Components
-@import "components/promo";
-@import "components/contact-us";
+@import 'components/promo';
+@import 'components/contact-us';
+@import 'components/navigation';
+@import 'components/tools';
+@import 'components/tool';
+@import 'components/strategies';
